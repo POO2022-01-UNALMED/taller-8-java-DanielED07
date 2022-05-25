@@ -5,7 +5,7 @@ public class Portero extends Futbolista {
 	public short golesResibidos;
 	public byte dorsal;
 	
-	public Portero(String n, int e, String p,short gr,byte d) {
+	public Portero(String n, int e,short gr,byte d) {
 		super(n,e,"Portero");
 		this.golesResibidos=gr;
 		this.dorsal=d;
